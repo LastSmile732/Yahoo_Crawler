@@ -15,4 +15,4 @@ To excute the Python script:
 Please notice that the result does not guarantee to display the top selling products 
 because there are no selling amount for them. There is a figure in sub-category pages display top selling products, such as:
 https://tw.buy.yahoo.com/?catitemid=113971&sort=-sales&pg=1, 
-but the format of sub-category pages are inconsistent, and finding all sub-category could be time consuming.
+but the format of sub-category pages is inconsistent, and finding all sub-category could be time consuming.
