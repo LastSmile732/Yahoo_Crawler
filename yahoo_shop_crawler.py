@@ -11,7 +11,7 @@ sitemap_url = 'https://tw.buy.yahoo.com/help/helper.asp?p=sitemap&hpp=sitemap'
 
 resp = requests.get(sitemap_url)
 resp.encoding = 'big5' # sitemap is using big5 charset, the other pages are using utf8
-soup = BeautifulSoup(resp.text, 'html.parser')
+soup = BeautifulSoup(resp.text, 'html5lib')
 
 sub_dict = {}
 result = pd.DataFrame(columns=['catgory_no','category', 'name', 'price','url'])
