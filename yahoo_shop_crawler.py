@@ -36,5 +36,5 @@ for key, value in sub_dict.items():
         index = index +1
     time.sleep(0.3) # fetch data gently
 
-np.where(pd.isnull(result))
+print(np.where(pd.isnull(result)))
 result.to_csv('yahoo_shop_fig.csv', index=True, header=True, encoding='utf-8-sig')
